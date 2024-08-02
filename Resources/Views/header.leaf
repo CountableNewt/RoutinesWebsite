@@ -1,8 +1,10 @@
 <header>
-    <div href="/" class="logo-title">
-        <img src="/Images/RoutinesLogo.png"/>
-        <p>Routines</p>
-    </div>
+    <a href="/">
+        <div class="logo-title">
+            <img src="/Images/RoutinesLogo.png"/>
+            <p>Routines</p>
+        </div>
+    </a>
     <nav>
         <!--<a href="/about">About</a>-->
         <a href="https://github.com/CountableNewt/Routines" target="_blank">GitHub</a>
