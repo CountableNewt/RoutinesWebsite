@@ -1,12 +1,14 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
 
-  <title>#(title)</title>
-</head>
+#extend("head")
 
 <body>
-  <h1>#(title)</h1>
+  #extend("header")
+  <main>
+    <h1>Routines</h1>
+    <h3>The Habit Tracker That Stays Out of Your Way</h3>
+    <img src="Images/MainScreenMockup.png"/>
+  </main>
 </body>
 </html>

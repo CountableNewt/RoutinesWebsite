@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+
+#extend("head")
+
+<body>
+  #extend("header")
+  <main>
+    <h2>About</h2>
+  </main>
+</body>
+</html>
