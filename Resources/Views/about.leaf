@@ -7,6 +7,43 @@
   #extend("header")
   <main>
     <h2>About</h2>
+    <section>
+      <h3>What Does the App Do?</h3>
+      <p>
+        This app is simple: you create a routine, which is a list of steps, you choose the time at
+        which you would like to perform the routine, then as you complete each task you check them off.
+        Every day, the list resets and you start again.
+    </section>
+    <section>
+      <h3>Why Does This App Exist?</h3>
+      <p>
+        Simply put, I decided to build this app because I wanted this app to exist.
+        I didn't do any kind of research, I didn't do any kind of looking around at the market
+        to figure out which features the app should have. I am building a tool that I want
+        to use myself. I've been using the reminders app for all of this, but the problem is that
+        when you set a time for the reminder, it's going to show up in your "Today" smart list, and I
+        didn't want that to happen. It just makes that whole list really cluttered, and I didn't like it.
+      </p>
+    </section>
+    <section>
+      <h3>Why Did You Build Routines Instead of Using an App That Already Exists?</h3>
+      <p>
+        Well, for starters, I just felt like it. That's most of the answer. The reason I don't use any of
+        the hundreds of habit trackers out there is that they're too talkative. Those apps feel like they're
+        constantly trying to coach you through doing the routines, and I just get annoyed by this. I have Autism
+        Spectrum Disorder (ASD) and one of my symptoms is known as Pathological Demand Avoidance (PDA) which
+        means that I have a need to feel like my actions are autonomous, and that I'm not being forced to do a task,
+        which is very prominent in situations like chores or self-care routines. If the app is constantly bugging me
+        about doing the task it just won't get done. So why use an app at all? I like to check things off lists. I like
+        my routines, and I like writing them down. That's really it. It's simple, but it works.
+      </p>
+    </section>
+    <section>
+      <h3>Who Are You?</h3>
+      <p>
+        I am a fresh-out-of-school solo developer and content creator. I graduated college with both a bachelors
+        and a masters degree in Information Systems. You can read more about me on my<a href="https://sam.theclementes.com">Portfolio</a>.
+    </section>
   </main>
 </body>
 </html>

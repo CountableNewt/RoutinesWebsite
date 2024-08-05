@@ -6,8 +6,8 @@
         </div>
     </a>
     <nav>
-        <!--<a href="/about">About</a>-->
+        <a href="/about">About</a>
         <a href="https://github.com/CountableNewt/Routines" target="_blank">GitHub</a>
-        <a href=#Beta>Beta - Coming Soon!</a>
+        <!-- <a href=#Beta>Beta - Coming Soon!</a> -->
     </nav>
 </header>
