@@ -39,6 +39,9 @@ main {
     flex-direction: column;
     gap: 1.5svh;
     text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-bottom: 5svh;
 }
 
 main img {
@@ -48,6 +51,7 @@ main img {
 
 p a {
     text-decoration: underline;
+    padding: 0 !important;
 }
 
 a {
