@@ -1,13 +1,14 @@
 <header>
-    <a href="/">
+    <a id="desktop-only" href="/">
         <div class="logo-title">
-            <img src="/Images/RoutinesLogo.png"/>
+            <img id="routines-logo-nav" src="/Images/routines-logo.webp"/>
             <p>Routines</p>
         </div>
     </a>
     <nav>
+        <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="https://github.com/CountableNewt/Routines" target="_blank">GitHub</a>
-        <!-- <a href=#Beta>Beta - Coming Soon!</a> -->
+        <a href="https://testflight.apple.com/join/TBYYT2Hy" target="_blank">Beta</a>
     </nav>
 </header>

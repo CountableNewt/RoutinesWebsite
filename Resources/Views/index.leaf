@@ -8,7 +8,7 @@
   <main>
     <h1>Routines</h1>
     <h3>The Habit Tracker That Stays Out of Your Way</h3>
-    <img src="/Images/MainScreenMockup.png"/>
+    <img id="routines-mockup" src="/Images/routines-mockup-light.webp"/>
   </main>
 </body>
 </html>

@@ -1,7 +1,10 @@
 :root {
-    background-color: #F4EBE2;
+    --background-color: #F4EBE2;
+    --color: rgba(39, 39, 39, 0.95);
+
+    background-color: var(--background-color);
     font-family: Nunito;
-    color: rgba(39, 39, 39, 0.95);
+    color: var(--color);
     font-weight: bold;
 }
 
@@ -46,7 +49,7 @@ main {
 
 main img {
     width: 374px;
-    height: 720px;
+    height: auto;
 }
 
 p a {
@@ -84,4 +87,55 @@ h3 {
 p {
     font-size: 1rem;
     margin-block: 0 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: rgba(39, 39, 39);
+        --color: #F4EBE2;
+    }
+
+    a {
+        color: var(--color);
+    }
+
+    #routines-logo-nav {
+        content: url(/Images/routines-logo-dark.webp)
+    }
+
+    #routines-mockup {
+        content: url(/Images/routines-mockup-dark.webp)
+    }
+}
+
+@media (max-width: 485px) {
+    header {
+        background-color: var(--background-color);
+        position: fixed;
+        bottom: 0;
+        left: 2vw;
+        right: 2vw;
+        width: auto;
+        justify-content: center;
+    }
+
+    body {
+        padding: 2svh 1rem 1.25rem 1rem !important;
+    }
+
+    main {
+        padding-top: 5svh;
+    }
+
+    nav {
+        padding: 1rem 0;
+    }
+
+    main img {
+        width: 250px;
+    }
+
+    #desktop-only {
+        display: none;
+    }
 }
